@@ -21,7 +21,7 @@ Tracktion Engine is supplied as a `JUCE module` so it can easily fit in to an ex
 
 To start with, clone the repo and recurse the submodules:
 ```
-$ git clone --recurse-submodules https://github.com/Tracktion/tracktion_engine.git
+$ git clone --recurse-submodules https://github.com/thomas-dumonet/tracktion_engine.git
 ```
 
 ## Examples
