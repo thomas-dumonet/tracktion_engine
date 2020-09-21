@@ -310,7 +310,7 @@ void SamplerPlugin::applyToBuffer (const AudioRenderContext& fc)
 
                     for (auto playingNote : playingNotes)
                     {
-                        if (playingNote->note == note && ! playingNote->openEnded)
+                        if (playingNote->note == note)
                         {
                             playingNote->samplesLeftToPlay = jmin (playingNote->samplesLeftToPlay,
                                                                    jmax (minimumSamplesToPlayWhenStopping, noteTimeSample));
